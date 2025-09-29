@@ -2,5 +2,5 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook-ui2
-  spec:
+spec:
   replicas: 3 # increase the number of replicas.
