@@ -2,12 +2,12 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    run: nginx-pod
-  name: nginx-pod
+    run: nginx-pod3
+  name: nginx-pod3
   namespace: test-argocd
 spec:
   containers:
   - image: nginxinc/nginx-unprivileged
-    name: nginx-pod
+    name: nginx-pod3
     resources: {}
   dnsPolicy: ClusterFirst
