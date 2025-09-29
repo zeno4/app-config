@@ -1,6 +1,1 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: nginx-pod3
-spec:
-  replicas: 1
+
