@@ -3,4 +3,4 @@ kind: Deployment
 metadata:
   name: guestbook-ui2
 spec:
-  replicas: 3 # increase the number of replicas.
+  replicas: 1 # increase the number of replicas.
