@@ -3,11 +3,7 @@ kind: Service
 metadata:
   name: nginx-service3
   namespace: test-argocd
-  labels:
-    run: nginx-service3
 spec:
   ports:
   - port: 8090
     protocol: TCP
-  selector:
-    run: nginx-pod3
