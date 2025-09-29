@@ -1,6 +1,13 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Pod
 metadata:
-  name: my-app
+  labels:
+    run: nginx-pod3
+  name: nginx-pod3
+  namespace: test-argocd
 spec:
-  replicas: 1
+  containers:
+  - image: nginxinc/nginx-unprivileged
+    name: nginx-pod3
+    resources: {}
+  dnsPolicy: ClusterFirst
