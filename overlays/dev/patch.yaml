@@ -1,6 +1,1 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: guestbook-ui2
-spec:
-  replicas: 2
+
